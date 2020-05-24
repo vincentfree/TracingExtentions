@@ -33,5 +33,4 @@ jobs:
     - name: Snyk
       uses: snyk/actions@0.1.1
       env:
-        JAVA_HOME: ${{ env.JAVA_HOME }}/bin
         SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
