@@ -30,6 +30,8 @@ jobs:
 
     - name: make gradle executable
       run: chmod +x gradlew
+    - name: check env
+      run: env
     # Snyk vulnarability checks
     - name: Snyk
       uses: snyk/actions@0.1.1
