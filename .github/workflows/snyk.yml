@@ -32,6 +32,8 @@ jobs:
       run: chmod +x gradlew
     # Snyk vulnarability checks
     - name: Snyk
-      uses: snyk/actions/gradle-jdk11@master
+      uses: snyk/actions@0.1.1
+      with:
+        wrapper-directory: gradle/wrapper
       env:
         SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
