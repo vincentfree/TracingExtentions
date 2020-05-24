@@ -21,6 +21,9 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
+    #
+    - name: make gradle executable
+      run: chmod +x gradlew
     # Snyk vulnarability checks
     - name: Snyk
       uses: snyk/actions@0.1.1
