@@ -8,6 +8,7 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
+    classpath(kotlin("gradle-plugin", version = "1.3.72"))
     implementation("io.opentracing:opentracing-api:0.33.0")
     testImplementation("org.junit.jupiter:junit-jupiter:5.6.2")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5:1.3.72")
