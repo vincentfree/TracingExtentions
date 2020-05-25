@@ -1,5 +1,7 @@
 # TracingExtentions
 
+[![Known Vulnerabilities](https://snyk.io/test/github/vincentfree/TracingExtentions/badge.svg?targetFile=build.gradle)](https://snyk.io/test/github/vincentfree/TracingExtentions?targetFile=build.gradle)
+
 > Kotlin extentions for OpenTracing
 
 The aim of this project is to extend 
